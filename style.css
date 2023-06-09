@@ -1,0 +1,38 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+img{
+    width: 15rem;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+
+}
+
+table{
+    width: 100%;
+    display: contents;
+}
+
+td, th, tr{
+    width: 20rem;
+    border: 1px solid; 
+}
+
+button{
+    border-radius: 5px;
+    color: white;
+    background-color: black; 
+    width: fit-content;
+}
+
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+thead{
+    height: 20px;
+    background-color: brown;
+}
